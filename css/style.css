@@ -1,0 +1,103 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 10px;
+}
+body header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+body header nav ul li {
+  list-style-type: none;
+}
+body header nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+body main {
+  margin: 70px;
+}
+body main .parte-principal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body main .parte-principal div h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 55px;
+  line-height: 70px;
+  letter-spacing: 10px;
+}
+body main .parte-principal div p {
+  line-height: 35px;
+  color: #8b8b8b;
+  margin-bottom: 30px;
+}
+body main .parte-principal div a {
+  background-color: #03faee;
+  padding: 20px;
+  border: 1px black dotted;
+  border-radius: 3px;
+  color: black;
+  text-decoration: none;
+}
+body main .parte-principal .img-section {
+  height: 500px;
+}
+body main .tarjetas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body main .tarjetas article {
+  background-color: #f8f8f8;
+  margin: 30px;
+  padding: 30px;
+}
+body main .tarjetas article p {
+  padding: 20px;
+}
+body main .tarjetas article .icono-num {
+  border: 1px black solid;
+  border-radius: 100%;
+  padding: 17px 20px;
+  -webkit-box-shadow: -5px 0px #92f7f2;
+          box-shadow: -5px 0px #92f7f2;
+}
+body main .tarjetas article h3 {
+  margin-top: 30px;
+  padding-left: 20px;
+}
+body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body footer img {
+  width: 45px;
+  margin-left: 25px;
+  border: 15px white solid;
+  border-radius: 100%;
+  -webkit-box-shadow: -5px 0px #92f7f2;
+          box-shadow: -5px 0px #92f7f2;
+}/*# sourceMappingURL=style.css.map */

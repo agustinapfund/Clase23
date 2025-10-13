@@ -1,0 +1,89 @@
+@import "_variables.scss";
+@import "_normalize.scss";
+@import "_mixins.scss";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    nav {
+      ul {
+        display: flex;
+        gap: 15px;
+        li {
+          list-style-type: none;
+          a {
+            color: black;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  main {
+    margin: 70px;
+    .parte-principal {
+      display: flex;
+      div {
+        h2 {
+          font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+          font-size: 55px;
+          line-height: 70px;
+          letter-spacing: 10px;
+        }
+        p {
+          line-height: 35px;
+          color: $color-primary;
+          margin-bottom: 30px;
+        }
+        a {
+          background-color: $bg-primary;
+          padding: 20px;
+          border: 1px black dotted;
+          border-radius: 3px;
+          color: black;
+          text-decoration: none;
+        }
+      }
+      .img-section {
+        height: 500px;
+      }
+    }
+    .tarjetas {
+      display: flex;
+
+      article {
+        background-color: $bg-secondary;
+        margin: 30px;
+        padding: 30px;
+        p {
+          padding: 20px;
+        }
+        .icono-num {
+          border: 1px black solid;
+          border-radius: 100%;
+          padding: 17px 20px;
+          box-shadow: -5px 0px $shadow;
+        }
+        h3 {
+          margin-top: 30px;
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img {
+      width: 45px;
+      margin-left: 25px;
+      border: 15px white solid;
+      border-radius: 100%;
+      box-shadow: -5px 0px $shadow;
+    }
+  }
+}
