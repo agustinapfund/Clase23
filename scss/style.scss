@@ -32,6 +32,17 @@ body {
           font-size: 55px;
           line-height: 70px;
           letter-spacing: 10px;
+          position: relative;
+          z-index: 1;
+        }
+        h2::before {
+          top: 0px;
+          height: 40px;
+          content: "";
+          background: $bg-primary;
+          position: absolute;
+          width: 200px;
+          z-index: -1;
         }
         p {
           line-height: 35px;
@@ -68,8 +79,19 @@ body {
           box-shadow: -5px 0px $shadow;
         }
         h3 {
+          position: relative;
           margin-top: 30px;
           padding-left: 20px;
+          z-index: 1;
+        }
+        h3::before {
+          top: 0px;
+          height: 10px;
+          content: "";
+          background: $bg-primary;
+          position: absolute;
+          width: 20px;
+          z-index: -1;
         }
       }
     }

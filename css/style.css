@@ -42,6 +42,17 @@ body main .parte-principal div h2 {
   font-size: 55px;
   line-height: 70px;
   letter-spacing: 10px;
+  position: relative;
+  z-index: 1;
+}
+body main .parte-principal div h2::before {
+  top: 0px;
+  height: 40px;
+  content: "";
+  background: #03faee;
+  position: absolute;
+  width: 200px;
+  z-index: -1;
 }
 body main .parte-principal div p {
   line-height: 35px;
@@ -80,8 +91,19 @@ body main .tarjetas article .icono-num {
           box-shadow: -5px 0px #92f7f2;
 }
 body main .tarjetas article h3 {
+  position: relative;
   margin-top: 30px;
   padding-left: 20px;
+  z-index: 1;
+}
+body main .tarjetas article h3::before {
+  top: 0px;
+  height: 10px;
+  content: "";
+  background: #03faee;
+  position: absolute;
+  width: 20px;
+  z-index: -1;
 }
 body footer {
   display: -webkit-box;
